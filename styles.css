@@ -1,0 +1,86 @@
+/* Custom CSS for styling */
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Calibri Light', sans-serif; /* Using Calibri Light for body content */
+}
+
+/* Container adjustments */
+#assignment {
+    position: relative;
+    padding-top: 4rem; /* Adjusted padding for a more section-like appearance */
+    padding-bottom: 4rem; /* Adjusted padding for a more section-like appearance */
+}
+
+/* Triangular background */
+.triangular-bg {
+    position: absolute;
+    inset: 0;
+    background: linear-gradient(135deg, #4C1D95 50%, #F3F4F6 50%); /* Purple and gray diagonal split */
+    z-index: -1;
+}
+
+/* Service card styling */
+.service-card {
+    border-radius: 10px;
+    transition: transform 1s ease-in-out;
+    min-height: 300px; /* Adjusted for section appearance */
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+/* Icon styling - placed inside circular shapes */
+.icon-circle {
+    width: 80px; /* Increased width for larger icons */
+    height: 80px; /* Increased height for larger icons */
+    background-color: #4C1D95;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;
+}
+
+/* Update icon image size */
+.icon-circle img {
+    width: 40px; /* Adjusted image size for larger icons */
+    height: 40px; /* Adjusted image size for larger icons */
+}
+
+/* Title placement and styling */
+.service-title {
+    font-family: 'Swis721 BlkCn BT', sans-serif; /* Swis721 BlkCn BT Font */
+    font-weight: bold;
+    font-size: 2.5rem; /* Adjust font size for better section look */
+    color: white;
+    margin-bottom: 1.5rem; /* Adjusted margin */
+    position: relative;
+    letter-spacing: 0.1em;
+    text-transform: uppercase;
+    text-align: left; /* Left align the title */
+}
+
+/* Service card heading styling */
+.service-card h3 {
+    font-family: 'Calibri Light', sans-serif;
+    font-size: 1.1rem; /* Adjusted font size */
+    color: #4C1D95;
+}
+
+/* Button/Link Styles */
+.service-card a {
+    font-family: 'Calibri Light', sans-serif;
+    color: #4C1D95;
+    text-decoration: none; /* Removed underline */
+    font-weight: bold;
+}
+
+.service-card a:hover {
+    color: #5B21B6;
+}
+
+/* Adjustments to maintain minimal space */
+.service-card p, .service-card h3 {
+    margin-bottom: 0.25rem; /* Reduced space (0.25rem) between elements */
+}

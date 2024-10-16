@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Services Section</title>
+    <!-- Tailwind CSS CDN -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    <!-- Custom Font for Swis721 BlkCn BT (using a Google Font alternative for the demo) -->
+    <link href="https://fonts.googleapis.com/css2?family=Anton&family=Calibri:wght@300&display=swap" rel="stylesheet">
+    <!-- Anime.js CDN -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/animejs/3.2.1/anime.min.js"></script>
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+    <!-- Main Section inside a div with ID "assignment" -->
+    <section id="assignment" class="py-16 px-8 max-w-7xl mx-auto relative">
+        <!-- Triangular background -->
+        <div class="triangular-bg absolute inset-0"></div>
+
+        <!-- Content Overlay -->
+        <div class="relative z-10">
+            <div class="container mx-auto">
+                <!-- Header for the section -->
+                <h2 class="service-title">OUR SERVICES</h2>
+
+                <!-- Service Cards Container -->
+                <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-10">
+                    <!-- Service 1 -->
+                    <div class="service-card bg-white p-8 text-center shadow-lg rotate-card">
+                        <div class="icon mb-4">  <!-- Reduced space between icon and content -->
+                            <div class="icon-circle">
+                                <img src="icon1.png" alt="Emergency Icon" class="mx-auto">
+                            </div>
+                        </div>
+                        <h3 class="font-bold text-lg text-purple-800 mb-2">Emergency Plumbing Services</h3>
+                        <p class="text-gray-700 mb-2">Our plumbers are ready to go 24/7 for emergencies - including nights, weekends, and holidays.</p>
+                        <a href="#" class="text-purple-800 font-bold">EXPLORE THIS SERVICE &gt;</a>
+                    </div>
+
+                    <!-- Service 2 -->
+                    <div class="service-card bg-white p-8 text-center shadow-lg rotate-card">
+                        <div class="icon mb-4">
+                            <div class="icon-circle">
+                                <img src="icon2.png" alt="Plumbing Icon" class="mx-auto">
+                            </div>
+                        </div>
+                        <h3 class="font-bold text-lg text-purple-800 mb-2">Plumbing and Drains</h3>
+                        <p class="text-gray-700 mb-2">As the largest plumbing and drain service company, we make thousands of repairs every day.</p>
+                        <a href="#" class="text-purple-800 font-bold">EXPLORE THIS SERVICE &gt;</a>
+                    </div>
+
+                    <!-- Service 3 -->
+                    <div class="service-card bg-white p-8 text-center shadow-lg rotate-card">
+                        <div class="icon mb-4">
+                            <div class="icon-circle">
+                                <img src="icon3.jpg" alt="Water Damage Icon" class="mx-auto">
+                            </div>
+                        </div>
+                        <h3 class="font-bold text-lg text-purple-800 mb-2">Water Damage</h3>
+                        <p class="text-gray-700 mb-2">Our teams are equipped with state-of-the-art water extraction and cleanup equipment.</p>
+                        <a href="#" class="text-purple-800 font-bold">EXPLORE THIS SERVICE &gt;</a>
+                    </div>
+
+                    <!-- Service 4 -->
+                    <div class="service-card bg-white p-8 text-center shadow-lg rotate-card">
+                        <div class="icon mb-4">
+                            <div class="icon-circle">
+                                <img src="icon4.png" alt="Water Heater Icon" class="mx-auto">
+                            </div>
+                        </div>
+                        <h3 class="font-bold text-lg text-purple-800 mb-2">Water Heaters</h3>
+                        <p class="text-gray-700 mb-2">Trust us for repair and replacement of gas, electric and tankless water heaters.</p>
+                        <a href="#" class="text-purple-800 font-bold">EXPLORE THIS SERVICE &gt;</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- External JS file -->
+    <script src="script.js"></script>
+</body>
+</html>
